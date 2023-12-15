@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Harvard University",
+    "image": "harvard.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-05-01",
+      "admissionTestDate": "2023-06-01"
+    },
+    "events": ["Orientation Day", "Alumni Meet", "Career Fair"],
+    "researchHistory": "Harvard University is renowned for its contributions to various academic disciplines.",
+    "sports": ["Basketball", "Soccer", "Rowing"]
+  },
+  {
+    "id": 2,
+    "name": "Stanford University",
+    "image": "stanford.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-04-15",
+      "admissionTestDate": "2023-05-15"
+    },
+    "events": ["Student Symposium", "Spring Festival", "Hackathon"],
+    "researchHistory": "Stanford University is a hub of innovation and cutting-edge research.",
+    "sports": ["Football", "Swimming", "Tennis"]
+  },
+  {
+    "id": 3,
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "image": "mit.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-03-20",
+      "admissionTestDate": "2023-04-20"
+    },
+    "events": ["Science Fair", "Cultural Night", "Career Workshop"],
+    "researchHistory": "MIT is known for pushing the boundaries of scientific and technological advancements.",
+    "sports": ["Volleyball", "Baseball", "Golf"]
+  },
+  {
+    "id": 4,
+    "name": "University of Oxford",
+    "image": "oxford.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-05-10",
+      "admissionTestDate": "2023-06-10"
+    },
+    "events": ["Open Day", "Debating Society Meet", "Research Showcase"],
+    "researchHistory": "The University of Oxford has a rich history of academic excellence and scholarly achievements.",
+    "sports": ["Cricket", "Rugby", "Fencing"]
+  },
+  {
+    "id": 5,
+    "name": "California Institute of Technology (Caltech)",
+    "image": "caltech.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-04-25",
+      "admissionTestDate": "2023-05-25"
+    },
+    "events": ["Tech Expo", "Caltech Arts Festival", "Innovation Symposium"],
+    "researchHistory": "Caltech is at the forefront of scientific and technological research.",
+    "sports": ["Lacrosse", "Track and Field", "Sailing"]
+  },
+  {
+    "id": 6,
+    "name": "Princeton University",
+    "image": "princeton.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-03-15",
+      "admissionTestDate": "2023-04-15"
+    },
+    "events": [
+      "Princeton Research Conference",
+      "Spring Dance",
+      "Community Service Day"
+    ],
+    "researchHistory": "Princeton University has a strong tradition of academic excellence and community engagement.",
+    "sports": ["Ice Hockey", "Tennis", "Swimming"]
+  },
+  {
+    "id": 7,
+    "name": "Yale University",
+    "image": "yale.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-05-05",
+      "admissionTestDate": "2023-06-05"
+    },
+    "events": ["Art Gala", "Leadership Summit", "Global Health Conference"],
+    "researchHistory": "Yale University is committed to fostering intellectual curiosity and global impact.",
+    "sports": ["Squash", "Sailing", "Basketball"]
+  },
+  {
+    "id": 8,
+    "name": "Columbia University",
+    "image": "columbia.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-04-20",
+      "admissionTestDate": "2023-05-20"
+    },
+    "events": [
+      "Columbia Entrepreneurship Expo",
+      "Film Festival",
+      "Earth Day Celebration"
+    ],
+    "researchHistory": "Columbia University is a hub of creativity and diverse academic pursuits.",
+    "sports": ["Golf", "Soccer", "Volleyball"]
+  },
+  {
+    "id": 9,
+    "name": "University of Cambridge",
+    "image": "cambridge.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-03-25",
+      "admissionTestDate": "2023-04-25"
+    },
+    "events": [
+      "Cambridge Science Festival",
+      "Literary Arts Showcase",
+      "Technology Summit"
+    ],
+    "researchHistory": "The University of Cambridge is known for its storied history and pioneering research contributions.",
+    "sports": ["Rowing", "Cricket", "Athletics"]
+  },
+  {
+    "id": 10,
+    "name": "ETH Zurich",
+    "image": "eth.jpg",
+    "admissionDates": {
+      "applicationDeadline": "2023-05-15",
+      "admissionTestDate": "2023-06-15"
+    },
+    "events": [
+      "Innovation Challenge",
+      "ETH Arts Week",
+      "Sustainability Symposium"
+    ],
+    "researchHistory": "ETH Zurich is a leading institution in science, engineering, and technology research.",
+    "sports": ["Mountain Climbing", "Skiing", "Swimming"]
+  }
+]
