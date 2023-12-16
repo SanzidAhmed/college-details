@@ -2,11 +2,13 @@ import React, { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { Link } from "react-router-dom";
+
 const SignIn = () => {
   const [error, setError] = useState("");
   const { signInUser } = useContext(AuthContext) || {};
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
+    console.log(data)
     signInUser(data.email, data.password)
       .then(() => {})
       .catch((err) => {
@@ -43,6 +45,7 @@ const SignIn = () => {
         <input className="btn bg-[#F45050]" value="sign in" type="submit" />
       </form>
       <p className="text-center text-red-600">{error}</p>
+      <p className="text-center">are you new to college details? <Link to="/signup" className="text-red-600">Sign UP</Link></p>
     </div>
   );
 };
