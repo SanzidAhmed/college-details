@@ -4,7 +4,7 @@ import CardTemplate from "./CardTemplate";
 const Card = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("colleges.json")
+    fetch("http://localhost:4500/colleges")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
